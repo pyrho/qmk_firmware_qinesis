@@ -20,7 +20,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		                KC_GRV   , GUISPACE , KC_LEFT , KC_RIGHT           , KC_DOWN   , KC_UP , KC_LBRACKET , KC_RBRACKET ,
 
 
-	KC_BSPC  , KC_ESCAPE , KC_LALT  , MO(ALT)  , KC_LCTRL , KC_LGUI ,     KC_LGUI , KC_LCTL, MO(ALT), KC_RALT  , KC_ENT    , KC_SPC
+	KC_BSPC  , CTL_T(KC_ESCAPE) , KC_LALT  , MO(ALT)  , KC_LCTRL , KC_LGUI ,     KC_LGUI , KC_LCTL, MO(ALT), KC_RALT  , KC_ENT    , KC_SPC
 
     ),
 
