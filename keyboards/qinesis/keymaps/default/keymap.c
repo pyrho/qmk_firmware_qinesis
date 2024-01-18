@@ -17,10 +17,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LCTRL , KC_A   , KC_R    , KC_S     , KC_T    , KC_D           , KC_H        , KC_N        , KC_E     , KC_I   , KC_O      , KC_QUOTE  ,
 		KC_LSFT  , KC_Z   , KC_X    , KC_C     , KC_V    , KC_B           , KC_K        , KC_M        , KC_COMMA , KC_DOT , KC_SLASH  , KC_RSFT   ,
 
-		                KC_GRV   , GUISPACE , KC_LEFT , KC_RIGHT           , KC_DOWN   , KC_UP , KC_LBRACKET , KC_RBRACKET ,
+		                KC_GRV   , KC_HYPR  , KC_LEFT , KC_RIGHT           , KC_DOWN   , KC_UP , KC_LBRACKET , KC_RBRACKET ,
 
 
-	KC_BSPC  , CTL_T(KC_ESCAPE) , KC_LALT  , MO(ALT)  , KC_LCTRL , KC_LGUI ,     KC_LGUI , KC_LCTL, MO(ALT), KC_RALT  , KC_ENT    , KC_SPC
+	KC_BSPC  , CTL_T(KC_ESCAPE) , KC_LALT  , MO(ALT)  , KC_MEH   , KC_LGUI ,     KC_LGUI , KC_RCTL, MO(ALT), KC_RALT  , KC_ENT    , KC_SPC
 
     ),
 
@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_LCTRL , KC_A   , KC_S    , KC_D     , KC_F    , KC_G           , KC_H        , KC_J        , KC_K     , KC_L   , KC_SCOLON , KC_QUOTE  ,
 		KC_LSFT  , KC_Z   , KC_X    , KC_C     , KC_V    , KC_B           , KC_N        , KC_M        , KC_COMMA , KC_DOT , KC_SLASH  , KC_RSFT   ,
 
-		                KC_GRV   , GUISPACE , KC_LEFT , KC_RIGHT           , KC_DOWN   , KC_UP , KC_LBRACKET , KC_RBRACKET ,
+		                KC_GRV   , KC_HYPR  , KC_LEFT , KC_RIGHT           , KC_DOWN   , KC_UP , KC_LBRACKET , KC_RBRACKET ,
 
 	KC_BSPC  , KC_ESCAPE , KC_LALT  , MO(ALT)  , KC_LCTRL , KC_LGUI ,     KC_LGUI , KC_LCTL, MO(ALT), KC_RALT  , KC_ENT    , KC_SPC
 
